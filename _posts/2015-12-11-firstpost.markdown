@@ -15,9 +15,12 @@ It is really as simple as utilizing the basic function object that we use everyd
 
 Within our newFunction’s closure we have the ability to create methods that are only associated with our current function closure scope. We can then create an object inside of the function. 
 
+<img src="/images/screenshot2.png">
+
 
 As properties of this object we can then store additional functions that can be easily accessed by the object. These internal functions are referred to as methods. That object is now stored inside of our current closure scope we can access these methods by referencing first the object then its property. As we see in the below example:
 
+<img src="/images/screenshot3.png">
 
 
 Functional Instantiation is an easy introduction to understanding prototype chains. In the functional pattern we do not require a prototype because our methods are stored as properties of our locally created object, which is already inside of our current closure scope. That means when we make reference to any of the newly created methods Javascript will look within it is current scope and locate the object we are referencing.

@@ -33,18 +33,36 @@
     <section>
         
             <header class="major">
-                <h2>Suspendisse pellentesque</h2>
-                <p class="post-meta">Feb 6, 2015</p>
+                <h2>Firstpost</h2>
+                <p class="post-meta">Dec 11, 2015</p>
             </header>
 
             <section>
-                <p><img src="/images/fulls/01.jpg" class="fit image" /> Suspendisse pellentesque mollis turpis, vitae ullamcorper arcu sagittis in. Pellentesque viverra, diam vel ultrices lobortis, urna diam efficitur diam, non ultricies enim massa et neque. Mauris lacinia purus nibh, ac consequat mi molestie ac. Suspendisse at sapien ac magna posuere imperdiet eget id nisi.</p>
+                <p><img src="/images/fulls/03.jpg" class="fit image" /></p>
+<h2>Demystifying the Functional Instantiation Pattern</h2>
 
-<p>Nulla facilisi. Pellentesque id magna eu sapien consectetur pulvinar nec eget massa. Nunc ut volutpat felis. Vestibulum pharetra ligula vel mattis aliquam. Etiam tempor vitae nulla nec euismod. Vivamus eget justo libero. Curabitur dictum, turpis vel porttitor semper, elit turpis vehicula nibh, quis mollis metus tortor at magna.</p>
+<h4>A Simple Explanation of Functional Instantiation.</h4>
 
-<p>Maecenas posuere sodales magna id tincidunt. Nunc sapien ipsum, efficitur et mauris nec, tristique gravida leo. Donec at bibendum lectus, sit amet fringilla risus. Donec et justo mi. In risus risus, faucibus eget eros eget, tincidunt posuere purus. Maecenas porta lacus metus, nec varius enim egestas ac. In hac habitasse platea dictumst. Nullam a nisi nulla. Nam vel varius enim, sit amet fringilla massa. Proin vel aliquam felis, quis scelerisque arcu.</p>
+<p>The topic of Instantiation Patterns seemed rather daunting from the first time I heard about it. Even pronouncing the word can be a bit a of a tongue twister. As I began to digest the idea, grasping the concept and thinking about it’s practical usage, it became clear that the term “functional instantiation” casted a bigger shadow then the concept itself. If you are familiar with basic Javascript objects then you have already dealt with the crux of functional instantiation.</p>
 
-<p>Sed consequat mi id malesuada efficitur. Vestibulum efficitur tortor ut dictum porta. Morbi dapibus viverra risus, et laoreet lorem commodo et. Donec hendrerit posuere magna a efficitur. Nullam euismod eget nulla eget iaculis. Donec porttitor faucibus porta. Morbi et risus dolor. Mauris venenatis sem id neque hendrerit ultrices.</p>
+<p>It is really as simple as utilizing the basic function object that we use everyday in Javascript. In the below example we have our normal function closure:</p>
+
+<p><img src="/images/screenshot1.png" /></p>
+
+<p>Within our newFunction’s closure we have the ability to create methods that are only associated with our current function closure scope. We can then create an object inside of the function.</p>
+
+<p><img src="/images/screenshot2.png" /></p>
+
+<p>As properties of this object we can then store additional functions that can be easily accessed by the object. These internal functions are referred to as methods. That object is now stored inside of our current closure scope we can access these methods by referencing first the object then its property. As we see in the below example:</p>
+
+<p><img src="/images/screenshot3.png" /></p>
+
+<p>Functional Instantiation is an easy introduction to understanding prototype chains. In the functional pattern we do not require a prototype because our methods are stored as properties of our locally created object, which is already inside of our current closure scope. That means when we make reference to any of the newly created methods Javascript will look within it is current scope and locate the object we are referencing.</p>
+
+<p>You must return the object out of the functional closure. In this case we are returning our object “instances”.</p>
+
+<p>This is just the beginning of instantiation patterns. As you explore them closer you’ll find each how they posses unique characteristics. I hope that it is helpful to know that you are starting from a much more familiar point that you might have previously assumed.</p>
+
 
             </section>
         
@@ -54,6 +72,24 @@
             
 
                 <article class="6u 12u(small)">
+                    <header>
+                        <h2><a href="/update/2015/02/06/welcome-to-jekyll.html">Suspendisse pellentesque</a></h2>
+                    </header>
+                    <section>
+                        <p><img src="/images/fulls/01.jpg" class="fit image" /> Suspendisse pellentesque mollis turpis, vitae ullamcorper arcu sagittis in. Pellentesque viverra, diam vel ultrices lobortis, urna diam efficitur diam, non ultricies enim massa et neque. Mauris lacinia purus nibh, ac consequat mi molestie ac. Suspendisse at sapien ac magna posuere imperdiet eget id nisi.</p>
+
+
+                    </section>
+                    <footer>
+                        <ul class="actions">
+                            <li><a href="/update/2015/02/06/welcome-to-jekyll.html" class="button">Read More</a></li>
+                        </ul>
+                    </footer>
+                </article>
+
+            
+
+                <article class="6u$ 12u(small)">
                     <header>
                         <h2><a href="/2015/01/30/Lorem.html">Lorem</a></h2>
                     </header>
