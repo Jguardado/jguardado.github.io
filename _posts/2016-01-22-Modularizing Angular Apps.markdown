@@ -1,8 +1,12 @@
 ---
 layout: post
+title: Modularizing in Angular
+date: 2016-02-25T14:37:44.000Z
+categories: update
 ---
 <img src="/images/fulls/02.jpg" class="fit image">
-<h2>Modularizing in Angular</h2>
+
+<h1>Modularizing in Angular</h1>
 
 You’ve built out all of your models, correctly placed your “ng-app" statement in either the body or the html tag. You’ve created separate pages for your controllers and your views. When you go to put it all together you cross your fingers and hope that all of your meticulous work falls together perfectly. Unfortunately for many of us we can easily run into complications. I’ve ran into this problem myself and have decided to share with you my check list for troubleshooting connections when modularizing a Angular app:
 

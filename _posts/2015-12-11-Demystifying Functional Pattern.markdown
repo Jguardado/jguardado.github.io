@@ -1,8 +1,11 @@
 ---
 layout: post
+title: Demystifying the Functional Instantiation Pattern
+date: 2016-02-25T14:37:44.000Z
+categories: update
 ---
 <img src="/images/fulls/03.jpg" class="fit image"> 
-<h2>Demystifying the Functional Instantiation Pattern</h2>
+<h1>Demystifying the Functional Instantiation Pattern</h1>
 
 <h4>A Simple Explanation of Functional Instantiation.</h4>
 
