@@ -1,6 +1,6 @@
 ---
 layout: post
-title: React, Redux, and Worklflow
+title: React, Redux, and Workflow
 date: 2016-02-25T14:37:44.000Z
 categories: update
 ---
