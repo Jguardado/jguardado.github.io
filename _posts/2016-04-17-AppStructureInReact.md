@@ -4,7 +4,9 @@ title: App Structure with React
 date: 2016-04-25T14:37:44.000Z
 categories: update
 ---
-<img src='/images/fulls/04.jpg' class='fit image'>
+
+<img src="/images/fulls/04.jpg" class="fit image">
+
 <h1>How to Structure your App in React</h1>
 
 <p>It's that time again to decide which framework you want to build your application in. You've done you're research, read all of the blogs about Angular, Backbone, Ember, and many others and you've come to the decision to use React. Maybe its because it one of the mot popular frameworks or maybe you wanted to verge into component based interfaces. Whatever the rational was hopefully it coincided with how React will be the best tool for the job, which should always be your number one concern when making decisions about your project.</p>
