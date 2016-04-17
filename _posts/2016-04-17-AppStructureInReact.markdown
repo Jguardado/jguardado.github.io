@@ -5,7 +5,6 @@ date: 2016-04-25T14:37:44.000Z
 categories: update
 ---
 
-<img src="/images/fulls/04.jpg" class="fit image">
 
 <h1>How to Structure your App in React</h1>
 
